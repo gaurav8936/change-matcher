@@ -1,0 +1,11 @@
+change-matcher
+
+Code: MIT, see LICENSE.
+
+Model (models/energy-documents/cross-encoder/): ed-minilm-l6-3way, a fine-tune of
+cross-encoder/ms-marco-MiniLM-L-6-v2 (Apache License 2.0, https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2),
+exported to ONNX and quantised to int8. The tokenizer is the base model's.
+
+Training data included synthetic regulatory documents and paragraphs from CUAD v1, the Contract Understanding Atticus
+Dataset by The Atticus Project (CC BY 4.0, https://www.atticusprojectai.org/cuad). The training pairs and the
+generator that made them are not part of this repository.

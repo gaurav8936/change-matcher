@@ -1,0 +1,20 @@
+1. Definitions
+"Services" means the hosted document-processing services described in an Order Form. "Customer Data" means all data that Customer submits to the Services.
+
+2. Term
+This Agreement begins on the Effective Date and continues for an initial term of twelve (12) months, renewing for successive twelve (12) month terms unless either party gives notice of non-renewal at least sixty (60) days before the end of the then-current term.
+
+3. Fees and Payment
+Customer shall pay all undisputed invoices within thirty (30) days of the invoice date. Late amounts accrue interest at one percent (1%) per month.
+
+4. Service Levels
+Provider shall make the Services available 99.5% of the time in each calendar month, measured as described in the Service Level Exhibit. Provider shall report availability to Customer on a quarterly basis.
+
+5. Security
+Provider shall maintain a written information security program consistent with SOC 2 Type II criteria and shall notify Customer of any Security Incident affecting Customer Data within seventy-two (72) hours of discovery.
+
+6. Audit
+Customer may audit Provider's compliance with Section 5 once per contract year on thirty (30) days' written notice.
+
+7. Limitation of Liability
+Neither party shall be liable for indirect or consequential damages. Each party's total liability is capped at the fees paid in the twelve (12) months before the claim.

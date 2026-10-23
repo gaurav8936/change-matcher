@@ -1,0 +1,4 @@
+energy-lab-2 91210815ca40a92556b72ee2f6e177fae19bf508
+energy-lab-1 74e6a8ba2850bb25371dc72e188b5fd9768f0a37
+labs-core 4c698ea7c00f9068d49b233d63a5ba1431d992dc
+(private repos; this copy holds the matcher, its serving model and what they import only)

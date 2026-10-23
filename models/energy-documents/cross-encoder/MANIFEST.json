@@ -1,0 +1,37 @@
+{
+ "model": {
+  "name": "ed-minilm-l6-3way",
+  "base": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "labels": [
+   "equivalent",
+   "material",
+   "unrelated"
+  ],
+  "max_length": 320,
+  "trained_pairs": 10720,
+  "train_seconds": 1440,
+  "val_accuracy": 0.9642,
+  "test_accuracy": 0.8976,
+  "created": "2026-10-17T21:31:24"
+ },
+ "files": {
+  "model.onnx": {
+   "bytes": 90967664,
+   "sha256": "8681b22eb1316326663b3c74cd21fc5aef0a182b44bad9696e5be2d3ebd11792"
+  },
+  "model.int8.onnx": {
+   "bytes": 23010740,
+   "sha256": "bdb1287d86e4ba5157b5b47e36be33cffec1d765bb68a308c0c78b1f8d36f3d5"
+  },
+  "tokenizer.json": {
+   "bytes": 711649,
+   "sha256": "4b9d4924d5bbaed352534029cf11bd9133cbe094b66c2ea851037e1cbf0bd522"
+  },
+  "labels.json": {
+   "bytes": 297,
+   "sha256": "6b2f75b83c34a500b4f4177d612ef4e1c1ce8407e85bbf56e81b381140268de1"
+  }
+ },
+ "ships_as": "/app/models/energy-documents/cross-encoder/ (ENERGY_DOCUMENTS_MODEL_DIR); int8 model + tokenizer.json + labels.json",
+ "eval_report": "labs-hypothesysai-energy-utilities/reports/evals/energy_documents/2026-10-17_four-arms.md"
+}

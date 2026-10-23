@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "change-matcher"
+version = "0.1.0"
+description = "Align two versions of a contract or regulation and tell a real change from a rewording: BM25 candidates, a fine-tuned MiniLM cross-encoder (int8 ONNX, CPU), a value/duty guard and a rule-based fallback."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT (code); see NOTICE for the model" }
+authors = [{ name = "Gaurav Narasimhan" }]
+dependencies = [
+    "rank-bm25>=0.2.2",
+    "onnxruntime>=1.18",
+    "tokenizers>=0.19",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
